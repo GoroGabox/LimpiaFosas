@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/LimpiaFosas/static/css/main.71a05067.css",
-    "main.js": "/LimpiaFosas/static/js/main.2eca023e.js",
-    "static/media/fondo.jpg": "/LimpiaFosas/static/media/fondo.e8c1ac954424c278f4ed.jpg",
+    "main.css": "/LimpiaFosas/static/css/main.4199f034.css",
+    "main.js": "/LimpiaFosas/static/js/main.87ee5a24.js",
+    "static/media/fondo-min.png": "/LimpiaFosas/static/media/fondo-min.89a769e33108171410e0.png",
     "static/media/worker.png": "/LimpiaFosas/static/media/worker.83568051d63dc1f23706.png",
     "static/media/limpieza-fosa-septica.jpg": "/LimpiaFosas/static/media/limpieza-fosa-septica.285539d21311d5636308.jpg",
     "static/media/LimpiaFosas.png": "/LimpiaFosas/static/media/LimpiaFosas.d9870101b8088bbf67d2.png",
+    "static/media/suministro-de-agua.png": "/LimpiaFosas/static/media/suministro-de-agua.1d7d0c54ded9019186d7.png",
+    "static/media/certificado.png": "/LimpiaFosas/static/media/certificado.917aaa74e8400f004101.png",
+    "static/media/manguera.png": "/LimpiaFosas/static/media/manguera.8295ba27da432cbd549c.png",
+    "static/media/logo-white.png": "/LimpiaFosas/static/media/logo-white.334b8fa8775f8621025d.png",
     "static/media/whatsapp-color.svg": "/LimpiaFosas/static/media/whatsapp-color.6c0782dd24848e713e54f6ca2b007b79.svg",
     "static/media/whatsapp-green.svg": "/LimpiaFosas/static/media/whatsapp-green.8684a81374a1b5949d7372473f8c0749.svg",
     "static/media/whatsapp-white.svg": "/LimpiaFosas/static/media/whatsapp-white.f569317521e8bdc93a1d09f72a1c4d1c.svg",
     "index.html": "/LimpiaFosas/index.html",
-    "main.71a05067.css.map": "/LimpiaFosas/static/css/main.71a05067.css.map",
-    "main.2eca023e.js.map": "/LimpiaFosas/static/js/main.2eca023e.js.map"
+    "main.4199f034.css.map": "/LimpiaFosas/static/css/main.4199f034.css.map",
+    "main.87ee5a24.js.map": "/LimpiaFosas/static/js/main.87ee5a24.js.map"
   },
   "entrypoints": [
-    "static/css/main.71a05067.css",
-    "static/js/main.2eca023e.js"
+    "static/css/main.4199f034.css",
+    "static/js/main.87ee5a24.js"
   ]
 }
