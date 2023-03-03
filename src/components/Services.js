@@ -37,19 +37,31 @@ function Services() {
 
     return (
       <div id='services' className='services'>
-        <div className="service-intro">
-          <h3 className='services-title'>Servicios</h3>
-          <img src={require("../assets/LimpiaFosas.png")} alt="" className='truck-img'/>
-        </div>
-        <div className="services-text">
-          Ofrecemos servicios de limpieza y mantenimiento de fosas sépticas, baños químicos, tranques, cámaras desbrozadoras y plantas elevadoras de aguas residuales.<br/><hr/> Instalamos fosas sépticas y drenajes, y realizamos destapes de alcantarillado mediante el uso de cañón Hidro-Jet.<br/><hr/> Todos nuestros servicios se realizan con equipos especializados y productos de alta calidad, y están diseñados para garantizar la eficiencia, seguridad y durabilidad de las instalaciones.
-        </div>
+        <h2 className='services-title'>Servicios</h2>
         <div className="services-container">
           <CardList
             items={services}
             resourceName="service"
             itemComponent={MyCard}
           />
+        </div>
+        <div className="services-text-container">
+          <div className="services-text-card">
+            <div className="services-icon1 icon"></div>
+            <div className="services-text">Ofrecemos servicios de limpieza y mantenimiento de fosas sépticas, baños químicos, tranques, cámaras desbrozadoras y plantas elevadoras de aguas residuales.</div>
+          </div>
+          <div className="services-text-card">
+            <div className="services-icon2 icon"></div>
+            <div className="services-text">Instalamos fosas sépticas y drenajes, y realizamos destapes de alcantarillado mediante el uso de cañón Hidro-Jet.</div>
+          </div>
+          <div className="services-text-card">
+            <div className="services-icon3 icon"></div>
+            <div className="services-text">Todos nuestros servicios se realizan con equipos especializados y productos de alta calidad, y están diseñados para garantizar la eficiencia, seguridad y durabilidad de las instalaciones.</div>
+          </div>
+        </div>
+        <div className="services-truck">
+          <img src={require("../assets/LimpiaFosas.png")} alt="" className='truck-img'/>
+          <p className=''>"Mantén tu hogar o empresa limpio y saludable con nuestros servicios de limpieza de fosas y tranques"</p>
         </div>
       </div>
     );
